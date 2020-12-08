@@ -32,7 +32,7 @@ public class ArraySequence implements IntegerSequence{
   public int next() throws NoSuchElementException{
     if(hasNext()) {
       currentIndex++;
-      return (currentIndex - 1);
+      return (data[currentIndex-1]);
     }
     else{
       throw new NoSuchElementException("there is not such element");
