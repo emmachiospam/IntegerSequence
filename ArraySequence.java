@@ -21,7 +21,7 @@ public class ArraySequence implements IntegerSequence{
   }
 
   public void reset() {
-    currentIndex = data[0];
+    currentIndex = 0;
   }
 
   public int length() {
